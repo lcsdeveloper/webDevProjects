@@ -1,5 +1,12 @@
+html {
+    height: 100%;
+}
+
 body {
-    background-color: #852857;
+    background-image: url(/images/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
@@ -8,9 +15,9 @@ body {
 }
 
 header {
-    background-color: blue;
     height: 118px;
     width: 1024px;
+    text-align: center;
 }
 
 nav {
@@ -20,13 +27,32 @@ nav {
 }
 
 main {
-    background-color: orange;
     height: 400px;
-    width: 1024px;
+    text-align: center;
+    padding: 80px 240px 0;
+    
 }
 
 footer {
     background-color: greenyellow;
     height: 40px;
     width: 1024px;
+}
+
+h1 {
+    font-size: 84px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none;  REMOVE THE UNDERLINE OF THE LINK*/
 }
