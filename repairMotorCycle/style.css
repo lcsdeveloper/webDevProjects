@@ -34,8 +34,6 @@ nav p {
     padding-right: 50px;
 }
 
-.logo-card {}
-
 main {
     min-height: 300px;
     display: flex;
@@ -55,6 +53,17 @@ main {
 .cards {
     display: flex;
     justify-content: space-between;
+    text-align: center;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px;
+}
+
+.cards i {
+    font-size: 100px;
 }
 
 .card1 {
@@ -75,19 +84,30 @@ main {
 
 .card3 {
     background-image: url(images/image-background-card3.jpg);
-    background-size: cover;  
+    background-size: cover;
     background-position: bottom;
     min-height: 250px;
     width: 30%;
 }
 
+.card1, .card2, .card3{
+    padding: 30px 30px 20px;
+    box-sizing: border-box;
+}
 h1 {
     font-size: 3.25rem;
     font-family: 'Playfair Display', serif;
     margin: 0 0 1rem;
 }
 
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair display', serif;
+    margin-top: 20px;
+}
+
 p {
     line-height: 1.75rem;
     margin: 0 0 0.5rem;
 }
+
