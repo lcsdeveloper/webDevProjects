@@ -7,9 +7,6 @@ body {
     color: #ffffff;
     font-family: 'Roboto Slab', serif;
     font-size: 1.125rem;
-    margin: 100px;
-
-
 }
 
 .container {
@@ -25,19 +22,29 @@ header {
     justify-content: space-between;
 }
 
-nav {
-    text-align: right;
-}
-
-nav p {
-    display: inline;
-    padding-right: 50px;
+nav a.myButton{
+    margin-left: 30px;
 }
 
 main {
     min-height: 300px;
     display: flex;
     align-items: center;
+}
+
+.myButton {
+    background-color: #ffffff;
+    color: #fa4083;
+    font-family: 'Playfair display', sans-serif;
+    padding: 11px 25px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.230);
+}
+
+a.myButton {
+    margin: 10px 0 0;
+    display: inline-block;
+
 }
 
 .main-card1 {
@@ -72,6 +79,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.230);
 }
 
 .card2 {
@@ -80,6 +88,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.230);
 }
 
 .card3 {
@@ -88,12 +97,16 @@ main {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.230);
 }
 
-.card1, .card2, .card3{
+.card1,
+.card2,
+.card3 {
     padding: 30px 30px 20px;
     box-sizing: border-box;
 }
+
 h1 {
     font-size: 3.25rem;
     font-family: 'Playfair Display', serif;
@@ -110,4 +123,3 @@ p {
     line-height: 1.75rem;
     margin: 0 0 0.5rem;
 }
-
