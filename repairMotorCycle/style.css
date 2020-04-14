@@ -1,125 +1,159 @@
-html {
-    height: 100%;
-}
+/*===============================================================================================*/
+/*Lucas Souza
+/*===============================================================================================*/
+/* ||  << Indicates the main topic of a division
+
+/* ===============================================================================================*/
+/*||General Styles */
+/*=================*/
 
 body {
-    background-image: linear-gradient(#fc5e55, #fa4083);
-    color: #ffffff;
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.125rem;
+	background-image: linear-gradient(#fc5e55, #fa4083);
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.125rem;
 }
-
-.container {
-    width: 1024px;
-    min-height: 300px;
-    margin: 0 auto;
-}
-
 header {
-    display: flex;
-    padding: 20px 0;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav a.myButton{
-    margin-left: 30px;
+	display: flex;
+	padding: 20px 0;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #d3d3d3;
 }
 
 main {
-    min-height: 300px;
-    display: flex;
-    align-items: center;
+	min-height: 300px;
+	display: flex;
+	align-items: center;
+}
+h1 {
+	font-size: 3.25rem;
+	font-family: 'Playfair Display', serif;
+	margin: 0 0 1rem;
+}
+
+h2 {
+	font-size: 2rem;
+	font-family: 'Playfair display', serif;
+	margin-top: 20px;
+}
+
+p {
+	line-height: 1.75rem;
+	margin: 0 0 0.5rem;
+}
+
+/*===============================================================================================*/
+/*||Container & Container's Classes*/
+/*==================================*/
+
+.container {
+	width: 1024px;
+	min-height: 300px;
+	margin: 0 auto;
+}
+
+/*================*/
+/*||Buttons Styles*/
+/*================*/
+.navButton {
+	border: solid 1px;
+	color: #ffffff;
+	font-family: 'Playfair Display', serif;
+	padding: 11px 25px;
 }
 
 .myButton {
-    background-color: #ffffff;
-    color: #fa4083;
-    font-family: 'Playfair display', sans-serif;
-    padding: 11px 25px;
-    border-radius: 2px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.230);
+	background-color: #ffffff;
+	color: #fa4083;
+	font-family: 'Playfair display', serif;
+	padding: 11px 25px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.230);
 }
 
 a.myButton {
-    margin: 10px 0 0;
-    display: inline-block;
-
+	margin: 10px 0 0;
+	display: inline-block;
 }
 
+/*===============================================================================================*/
+/*||Main & Main's Cards */
+/*======================*/
 .main-card1 {
-    flex: 2;
-    padding: 0 6.25rem 0 0;
+	flex: 2;
+	padding: 0 6.25rem 0 0;
 }
 
 .main-card2 {
-
-    flex: 1;
+	flex: 1;
 }
 
 .cards {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
 }
 
 .cards p {
-    font-size: 0.85rem;
-    line-height: 1.2rem;
-    margin: 10px;
+	font-size: 0.85rem;
+	line-height: 1.2rem;
+	margin: 10px;
 }
 
 .cards i {
-    font-size: 100px;
+	font-size: 100px;
 }
 
 .card1 {
-    background-image: url(images/image-background-card1.jpg);
-    background-size: cover;
-    background-position: bottom;
-    min-height: 250px;
-    width: 30%;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.230);
+	background-image: url(images/image-background-card1.jpg);
+	background-size: cover;
+	background-position: bottom;
+	min-height: 250px;
+	width: 30%;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.230);
 }
 
 .card2 {
-    background-image: url(images/image-background-card2.jpg);
-    background-size: cover;
-    background-position: bottom;
-    min-height: 250px;
-    width: 30%;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.230);
+	background-image: url(images/image-background-card2.jpg);
+	background-size: cover;
+	background-position: bottom;
+	min-height: 250px;
+	width: 30%;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.230);
 }
 
 .card3 {
-    background-image: url(images/image-background-card3.jpg);
-    background-size: cover;
-    background-position: bottom;
-    min-height: 250px;
-    width: 30%;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.230);
+	background-image: url(images/image-background-card3.jpg);
+	background-size: cover;
+	background-position: bottom;
+	min-height: 250px;
+	width: 30%;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.230);
 }
 
 .card1,
 .card2,
 .card3 {
-    padding: 30px 30px 20px;
-    box-sizing: border-box;
+	padding: 30px 30px 20px;
+	box-sizing: border-box;
 }
 
-h1 {
-    font-size: 3.25rem;
-    font-family: 'Playfair Display', serif;
-    margin: 0 0 1rem;
+
+/* ===============================================================================================*/
+/*||Testimonial Classes */
+/* =====================*/
+.testimonial {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 0 100px;
 }
 
-h2 {
-    font-size: 2rem;
-    font-family: 'Playfair display', serif;
-    margin-top: 20px;
-}
-
-p {
-    line-height: 1.75rem;
-    margin: 0 0 0.5rem;
+.testimonial-box {
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	margin: 50px 0 0 0;
+	padding: 50px;
+	width: 37%;
 }
