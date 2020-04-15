@@ -72,6 +72,11 @@ p {
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.230);
 }
 
+.myButton:hover{
+	background-color: #d8d4d4;/*PLEASE CHANGE THIS COLOR IN THE FUTURE*/
+	transition-duration: 1s;
+}
+
 a.myButton {
 	margin: 10px 0 0;
 	display: inline-block;
@@ -146,7 +151,7 @@ a.myButton {
 .testimonial {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 0 0 100px;
 }
 
@@ -156,4 +161,10 @@ a.myButton {
 	margin: 50px 0 0 0;
 	padding: 50px;
 	width: 37%;
+}
+
+.testimonial-box p:last-of-type{
+	font-size: 0.8rem;
+	margin-left: 30px;
+
 }
