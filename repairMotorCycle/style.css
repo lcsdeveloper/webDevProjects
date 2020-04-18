@@ -59,8 +59,44 @@ p {
 .navButton {
 	border: solid 1px;
 	color: #ffffff;
+	display: inline-block;
 	font-family: 'Playfair Display', serif;
 	padding: 11px 25px;
+	position: relative;
+}
+
+/* turnning off the dropdown menu */
+.dropdown {
+	display: none;
+	position: absolute;
+	padding-top: 20px;
+	text-align: center;
+	margin-left: -25px;
+}
+
+.dropdown .navButton:hover{
+	border: 2px solid #fff;
+	background-color: #fc5e55;
+}
+
+.dropdown .navButton:hover a {
+	color: #fff;
+}
+
+.dropdown .navButton a {
+	color: #fa4083;
+}
+
+
+
+/* turnning on the dropdown menu */
+.navButton:hover .dropdown {
+	display: block;
+}
+
+.dropdown .navButton {
+	width: 140px;
+	background-color: #fff;
 }
 
 .myButton {
@@ -72,8 +108,8 @@ p {
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.230);
 }
 
-.myButton:hover{
-	background-color: #d8d4d4;/*PLEASE CHANGE THIS COLOR IN THE FUTURE*/
+.myButton:hover {
+	background-color: #d8d4d4; /*PLEASE CHANGE THIS COLOR IN THE FUTURE*/
 	transition-duration: 1s;
 }
 
@@ -144,7 +180,6 @@ a.myButton {
 	box-sizing: border-box;
 }
 
-
 /* ===============================================================================================*/
 /*||Testimonial Classes */
 /* =====================*/
@@ -163,8 +198,7 @@ a.myButton {
 	width: 37%;
 }
 
-.testimonial-box p:last-of-type{
+.testimonial-box p:last-of-type {
 	font-size: 0.8rem;
 	margin-left: 30px;
-
 }
