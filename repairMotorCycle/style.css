@@ -6,13 +6,19 @@
 /* ===============================================================================================*/
 /*||General Styles */
 /*=================*/
+html {
+	background-image: linear-gradient(#fc5e55, #fa4083);
+}
 
 body {
-	background-image: linear-gradient(#fc5e55, #fa4083);
+	background-image: url(/images/image-lion-background.png);
+	background-position: top center;
+	background-repeat: no-repeat;
 	color: #ffffff;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.125rem;
 }
+
 header {
 	display: flex;
 	padding: 20px 0;
@@ -26,6 +32,7 @@ main {
 	display: flex;
 	align-items: center;
 }
+
 h1 {
 	font-size: 3.25rem;
 	font-family: 'Playfair Display', serif;
@@ -74,7 +81,7 @@ p {
 	margin-left: -25px;
 }
 
-.dropdown .navButton:hover{
+.dropdown .navButton:hover {
 	border: 2px solid #fff;
 	background-color: #fc5e55;
 }
@@ -109,7 +116,8 @@ p {
 }
 
 .myButton:hover {
-	background-color: #d8d4d4; /*PLEASE CHANGE THIS COLOR IN THE FUTURE*/
+	background-color: #d8d4d4;
+	/*PLEASE CHANGE THIS COLOR IN THE FUTURE*/
 	transition-duration: 1s;
 }
 
@@ -201,4 +209,18 @@ a.myButton {
 .testimonial-box p:last-of-type {
 	font-size: 0.8rem;
 	margin-left: 30px;
+}
+
+/*===============================================================================================*/
+/*||Container & Container's Classes*/
+/*||Classes for Contact Us Page02  */
+/*=================================*/
+
+.main-contact {
+	min-height: 300px;
+	padding-top: 50px;
+}
+
+.input-wrapper {
+	margin: 5px 0;
 }
