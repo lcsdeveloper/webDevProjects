@@ -224,3 +224,7 @@ a.myButton {
 .input-wrapper {
 	margin: 5px 0;
 }
+
+.input-wrapper textarea {
+	resize: none;
+}
