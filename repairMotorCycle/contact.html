@@ -37,30 +37,30 @@
 
                 <nav>
 
-                    <div class="navButton">
+                    <div class="nav-button">
                         <a href="#">Book Online</a>
 
                         <div class="dropdown">
-                            <div class="navButton">
+                            <div class="nav-button">
                                 <a href="#">Onsite Service</a>
                             </div>
 
-                            <div class="navButton">
+                            <div class="nav-button">
                                 <a href="#">Parts Delivery</a>
                             </div>
 
-                            <div class="navButton">
+                            <div class="nav-button">
                                 <a href="#">Request Callback</a>
                             </div>
                         </div>
 
                     </div>
 
-                    <div class="navButton">
+                    <div class="nav-button">
                         <a href="#">About</a>
                     </div>
 
-                    <div class="navButton">
+                    <div class="nav-button">
                         <a href="#">Contact</a>
                     </div>
 
@@ -73,14 +73,15 @@
                 <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to
                     you within a matter of hours to help you.</p>
 
-                 <form ><!--action="main.php" fix it latter because i do not use php here--> 
+                <form>
+                    <!--action="main.php" fix it latter because i do not use php here-->
                     <div class="input-wrapper">
-                        <label for="name">First Name:</label>
+                        <label for="name" class="new-line">First Name:</label>
                         <input type="text" name="name" id="name" placeholder="First Name">
                     </div>
 
                     <div class="input-wrapper">
-                        <label for="email">Email:</label>
+                        <label for="email" class="new-line">Email:</label>
                         <input type="email" name="email" id="email" placeholder="example@example.com">
                     </div>
 
@@ -99,9 +100,18 @@
                     <div class="input-wrapper">
                         <p>How would you like to be contacted</p>
                         <input type="radio" name="contact-pref" id="phone" value="phone">
-                        <label for="phone">Phone</label>
+                        <label for="phone" class="margin-right">Phone</label>
                         <input type="radio" name="contact-pref" id="email2" value="email">
-                        <label for="email2">Email</label>
+                        <label for="email2" class="margin-right">Email</label>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <select name="county" id="county">
+                            <option value="not-chosen">Choose a County</option>
+                            <option value="limerick">Limerick</option>
+                            <option value="galway">Galway</option>
+                            <option value="dublin">Dublin</option>
+                        </select>
                     </div>
 
                     <input type="submit" value="Send" id="button">

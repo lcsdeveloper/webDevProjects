@@ -63,7 +63,7 @@ p {
 /*================*/
 /*||Buttons Styles*/
 /*================*/
-.navButton {
+.nav-button {
 	border: solid 1px;
 	color: #ffffff;
 	display: inline-block;
@@ -81,32 +81,32 @@ p {
 	margin-left: -25px;
 }
 
-.dropdown .navButton:hover {
+.dropdown .nav-button:hover {
 	border: 2px solid #fff;
 	background-color: #fc5e55;
 }
 
-.dropdown .navButton:hover a {
+.dropdown .nav-button:hover a {
 	color: #fff;
 }
 
-.dropdown .navButton a {
+.dropdown .nav-button a {
 	color: #fa4083;
 }
 
 
 
 /* turnning on the dropdown menu */
-.navButton:hover .dropdown {
+.nav-button:hover .dropdown {
 	display: block;
 }
 
-.dropdown .navButton {
+.dropdown .nav-button {
 	width: 140px;
 	background-color: #fff;
 }
 
-.myButton {
+.my-button {
 	background-color: #ffffff;
 	color: #fa4083;
 	font-family: 'Playfair display', serif;
@@ -115,13 +115,13 @@ p {
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.230);
 }
 
-.myButton:hover {
+.my-button:hover {
 	background-color: #d8d4d4;
 	/*PLEASE CHANGE THIS COLOR IN THE FUTURE*/
 	transition-duration: 1s;
 }
 
-a.myButton {
+a.my-button {
 	margin: 10px 0 0;
 	display: inline-block;
 }
@@ -216,15 +216,56 @@ a.myButton {
 /*||Classes for Contact Us Page02  */
 /*=================================*/
 
+form {
+	margin: 40px 0;
+}
+
 .main-contact {
 	min-height: 300px;
 	padding-top: 50px;
 }
 
 .input-wrapper {
-	margin: 5px 0;
+	margin-bottom: 20px;
 }
 
-.input-wrapper textarea {
-	resize: none;
+input[type=text],
+input[type=email],
+textarea, select {
+	box-sizing: border-box;
+	border: none;
+	border-radius: 4px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 0.85rem;
+	padding: 12px 20px;
+	width: 50%;
+}
+
+input[type=radio] {
+	margin-right: 10px;
+}
+
+input[type=submit] {
+	background-color: #fff;
+	border: solid 2px #fff;
+	border-radius: 4px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1rem;
+	padding: 10px 50px;
+}
+
+input[type=submit]:hover {
+	background-color: #ffd4d4;
+	border: solid 2px #fff;
+	color: #fa4083;
+	transition-duration: 0.8s;
+}
+
+.new-line {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.margin-right {
+	margin-right: 20px;
 }
