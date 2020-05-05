@@ -1,0 +1,97 @@
+/* por os icons e editar o facebook e o perdeu o password */
+
+html,body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #cae8d5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    min-height: 100vh;
+}
+
+.div-login {
+    background-color: #ffffff;
+    border: 1px solid #e2dede;
+    border-radius: 5px 5px 0 0;
+    height: 400px;
+    text-align: center;
+    width: 300px;
+}
+
+.div-login h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    padding: 5px 0;
+}
+
+.div-login h4{
+    padding: 0 0 5px;
+}
+
+.div-login p {
+    padding: 5px 0;
+}
+
+.form-control input::placeholder{
+    padding-left: 5px;
+    font-size: 1rem;
+}
+
+.form-control input {
+    font-size: 1rem;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #cecccc;
+    margin: 5px 0;
+    width: 250px;
+    height: 30px;
+}
+
+.form-control button {
+    background-color: #00a8cc;
+    border-radius: 2px;
+    box-shadow: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    height: 30px;
+    margin: 0;
+    padding: 2px 0;
+    width: 250px;
+}
+
+.form-control button:focus{
+    outline: none;
+}
+
+.form-control button:hover{
+    background-color: #ffffff;
+    border: 1px solid #00a8cc;
+    color: #00a8cc;
+    cursor: pointer;
+}
+
+.div-sign-up {
+    background-color: #ffffff;
+    border: 1px solid #e2dede;
+    border-radius: 0 0 5px 5px;
+    height: 50px;
+    margin: 5px 0;
+    text-align: center;
+    width: 300px;
+}
+
+.div-app {
+    display: inline-block;
+    text-align: center;
+}
+
